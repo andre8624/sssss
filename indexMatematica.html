@@ -9,44 +9,44 @@
 </head>
 <body>
     <header>
-        <div class="menu">
-            <button class="menuBotao" onclick="toggleMenu()">
-                <span class="material-icons">menu</span>
+<div class="menubotão">
+            <button class="menuBotao" onclick="apertarBotao()">
+                <span class="botao">menu</span>
             </button>
             <ul class="listaapertada" id="listaapertada">
-                <li><a href="index.html">Página inicial</a></li>
+                <li><a href="index.html">Página Inicial</a></li>
                 <li><a href="indexFísica.html">Física</a></li>
                 <li><a href="indexMatematica.html">Matemática</a></li>
                 <li><a href="indexQuímica.html">Química</a></li>
                 <li><a href="indexSociologia.html">Sociologia</a></li>
-            </ul>
-            
-        </div>
-        <div class="search-bar">
-            <input type="text" placeholder="Pesquisar...">
-            <spans class="material-icons">search</spans>
-        </div>
-        <button class="botoes">
-            <ul>
-                <li><a href="#Atividades">Atividades</a></li>
-                <li><a href="#Provas">Provas</a></li>
-                <li><a href="#Projetos">Projetos</a></li>
-               
-            </ul>
-        </button>
-    </header>
+                </ul>
+</div>
+<div class="search-bar">
+    <input type="text" placeholder="Pesquisar">
+    <span class="botao">search</span>
+</div>
+<button class="botoes">
+    <ul>
+        <li><a href="#Atividades">Atividades</a></li>
+        <li><a href="#Provas">Provas</a></li>
+        <li><a href="#Projetos">Projetos</a></li>
+       
+    </ul>
+</button>
+
+    </header>  
     <section class="Portfólio"><div>Portfólio</div>
-        <div class="materias">Disciplinas</div>
+        <div class="materias">Matemática</div>
     </section>
-   
 
     <script>
-        function toggleMenu() {
-            var menu = document.getElementById("listaapertada ");
+        function apertarBotao() {
+            var menu = document.getElementById("listaapertada")
             menu.style.display = menu.style.display === "block" ? "none" : "block";
         }
     </script>
-    <section id="Atividades">
+   
+   <section id="Atividades">
         <div class="Atividades">
          <h1>Atividades</h1>
         </div>
