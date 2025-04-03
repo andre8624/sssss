@@ -45,11 +45,11 @@ header {
     box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
 }
 
-.listaapertada li {
+.menu-list li {
     padding: 5px 10px;
 }
 
-.listaapertada a{
+.menu-list a{
     text-decoration: none;
     color: black;
     display: block;
